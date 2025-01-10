@@ -10,12 +10,12 @@ Provides a VEN 2.0b library which can be used to implements a VEN 2.0b.
 
 Module | Description
 ------------- | ------------- 
-OpenADRSecurity | OADR security framework (PKI RSA/ECC, XmlSignature)
-OpenADRModel20b | OADR 2.0b model java classes generated from XSDL definition file
-OpenADRServerVEN20b | OADR 2.0b VEN library
-OpenADRServerVTN20b | OADR 2.0b VTN implementation + Control API / UI
-DummyVEN20b | Dummy OADR 2.0b VEN implementation based on OpenADRServerVEN20b
-DummyVTN20bController | Dummy OADR 2.0b VTN controller implementation acting DRProgram and device manager. Leverage OpenADRServerVTN20b APIs.
+openadr-security | OADR security framework (PKI RSA/ECC, XmlSignature)
+openadr-model-20b | OADR 2.0b model java classes generated from XSDL definition file
+openadr-server-ven-20b | OADR 2.0b VEN library
+openadr-server-vtn-20b | OADR 2.0b VTN implementation + Control API / UI
+dummy-ven-20b | Dummy OADR 2.0b VEN implementation based on OpenADRServerVEN20b
+dummy-dr-program | Dummy OADR 2.0b VTN controller implementation acting DRProgram and device manager. Leverage OpenADRServerVTN20b APIs.
 
 
 ## Certificates
