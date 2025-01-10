@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.avob.openadr</groupId>
-	<artifactId>OpenADR</artifactId>
+	<artifactId>openadr</artifactId>
 	<version>0.1.0-SNAPSHOT</version>
 	<name>OpenADR</name>
 	<description>OpenADR VEN/VTN implementation</description>
@@ -51,52 +51,52 @@
 		<dependencies>
 			<dependency>
 				<groupId>com.avob.openadr</groupId>
-				<artifactId>OpenADRModel20b</artifactId>
+				<artifactId>openadr-model-20b</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.avob.openadr</groupId>
-				<artifactId>OpenADRHTTPClient</artifactId>
+				<artifactId>openadr-http-client</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.avob.openadr</groupId>
-				<artifactId>OpenADRSecurity</artifactId>
+				<artifactId>openadr-security</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.avob.openadr</groupId>
-				<artifactId>OpenADRModel20a</artifactId>
+				<artifactId>openadr-model-20a</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.avob.openadr</groupId>
-				<artifactId>OpenADRHTTPClient20a</artifactId>
+				<artifactId>openadr-http-client-20a</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.avob.openadr</groupId>
-				<artifactId>OpenADRHTTPClient20b</artifactId>
+				<artifactId>openadr-http-client-20b</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.avob.openadr</groupId>
-				<artifactId>OpenADRXMPPClient</artifactId>
+				<artifactId>openadr-xmpp-client</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.avob.openadr</groupId>
-				<artifactId>OpenADRServerVTNCommon</artifactId>
+				<artifactId>openadr-server-vtn-common</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.avob.openadr</groupId>
-				<artifactId>OpenADRServerVTN20a</artifactId>
+				<artifactId>openadr-server-vtn-20a</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.avob.openadr</groupId>
-				<artifactId>OpenADRServerVEN20b</artifactId>
+				<artifactId>openadr-server-ven-20b</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 
@@ -197,19 +197,19 @@
 	</build>
 
 	<modules>
-		<module>./OpenADRHTTPClient</module>
-		<module>./OpenADRHTTPClient20a</module>
-		<module>./OpenADRHTTPClient20b</module>
-		<module>./OpenADRXMPPClient</module>
-		<module>./OpenADRModel20a</module>
-		<module>./OpenADRModel20b</module>
-		<module>./OpenADRSecurity</module>
-		<module>./OpenADRServerVTNCommon</module>
-		<module>./OpenADRServerVTN20a</module>
-		<module>./OpenADRServerVEN20b</module>
-		<module>./OpenADRServerVTN20b</module>
-		<module>./DummyVEN20b</module>
-		<module>./DummyDRProgram</module>
+		<module>./openadr-http-client</module>
+		<module>./openadr-http-client-20a</module>
+		<module>./openadr-http-client-20b</module>
+		<module>./openadr-xmpp-client</module>
+		<module>./openadr-model-20a</module>
+		<module>./openadr-model-20b</module>
+		<module>./openadr-security</module>
+		<module>./openadr-server-vtn-common</module>
+		<module>./openadr-server-vtn-20a</module>
+		<module>./openadr-server-ven-20b</module>
+		<module>./openadr-server-vtn-20b</module>
+		<module>./dummy-ven-20b</module>
+		<module>./dummy-dr-program</module>
 
 	</modules>
 

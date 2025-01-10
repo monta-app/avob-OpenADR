@@ -70,7 +70,7 @@
 .vagrant/nodered/provisioning/roles/*
 
 cert*
-OpenADRServerVTN20b/src/main/resources/public/
-OpenADRServerVTN20b/frontend/build/
-OpenADRServerVTN20b/frontend/node_modules/
-OpenADRServerVTN20b/frontend/package-lock.json
+openadr-server-vtn-20b/src/main/resources/public/
+openadr-server-vtn-20b/frontend/build/
+openadr-server-vtn-20b/frontend/node_modules/
+openadr-server-vtn-20b/frontend/package-lock.json
