@@ -26,7 +26,7 @@
 		<jacoco-plugin.version>0.8.5</jacoco-plugin.version>
 		<postgres.version>42.2.5</postgres.version>
 		<rabbitmq-jms.version>1.11.2</rabbitmq-jms.version>
-		<springfox.version>2.9.2</springfox.version>
+		<springfox.version>2.10.0</springfox.version>
 		<dozer.version>5.5.1</dozer.version>
 		<commons-compress.version>1.19</commons-compress.version>
 		<guava.version>21.0	</guava.version>
