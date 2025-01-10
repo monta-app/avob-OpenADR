@@ -185,6 +185,14 @@
 					</artifactItems>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+				<inherited>false</inherited>
+			</plugin>
 		</plugins>
 	</build>
 
@@ -219,5 +227,12 @@
 		</developer>
 	</developers>
 
+	<distributionManagement>
+		<repository>
+			<id>monta-openadr</id>
+			<name>Github Package Repository</name>
+			<url>https://maven.pkg.github.com/monta-app/avob-OpenADR</url>
+		</repository>
+	</distributionManagement>
 
 </project>
