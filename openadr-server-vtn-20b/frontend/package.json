@@ -23,7 +23,7 @@
     "@material-ui/icons": "3.0.2",
     "material-ui-chip-input": "1.0.0",
     "material-ui-color-picker": "3.2.0",
-    "moment": "2.24.0",
+    "moment": "2.29.4",
     "object-assign": "4.1.1",
     "parse-xsd-duration": "0.5.0",
     "swagger-client": "3.8.25"
