@@ -22,7 +22,7 @@ metadata:
 
 # The spec defines who becomes the owner of the system in backstage
 spec:
-  type: <type> # TODO
-  lifecycle: <production|experimental> # TODO
+  type: library
+  lifecycle: experimental
   owner: grid
   system: cpi
