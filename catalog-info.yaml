@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  # Name of the project 
+  name: avob-OpenADR
+  description: OpenADR protocol java implementation
+  # Specifies the directory of the docs
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+
+  links:
+    # Slack channel to write in for communicating with the resposible team.
+  - title: Team Slack Channel
+    url: https://monta-app01.slack.com/archives/C04JANZMTQV
+    type: Slack
+    icon: chat
+    # Page in notion documenting the purpose and function of the service 
+  - title: Notion
+    url: https://www.notion.so/montaapp/OpenADR-129b287c9fd880479841ecaf584e0b83
+    type: Notion
+    icon: docs
+
+# The spec defines who becomes the owner of the system in backstage
+spec:
+  type: library
+  lifecycle: experimental
+  owner: grid
+  system: cpi
